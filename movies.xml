@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie id="1">
+        <title>The Godfather</title>
+        <year>1972</year>
+        <genre>Crime</genre>
+        <director>Francis Ford Coppola</director>
+        <rating>9.2</rating>
+        <price>13.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg</poster>
+        <description>The aging patriarch transfers control of his crime family to his reluctant son.</description>
+        <featured>true</featured>
+    </movie>
+
+    <movie id="2">
+        <title>Dune</title>
+        <year>2021</year>
+        <genre>Sci-Fi</genre>
+        <director>Denis Villeneuve</director>
+        <rating>8.0</rating>
+        <price>16.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg</poster>
+        <description>Paul Atreides leads nomadic tribes in a battle to control the desert planet Arrakis.</description>
+        <featured>false</featured>
+    </movie>
+
+ 
+    <movie id="3">
+        <title>Blade Runner 2049</title>
+        <year>2017</year>
+        <genre>Sci-Fi</genre>
+        <director>Denis Villeneuve</director>
+        <rating>8.0</rating>
+        <price>15.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg</poster>
+        <description>A young blade runner discovers a secret that could plunge what's left of society into chaos.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="4">
+        <title>Parasite</title>
+        <year>2019</year>
+        <genre>Thriller</genre>
+        <director>Bong Joon-ho</director>
+        <rating>8.5</rating>
+        <price>16.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg</poster>
+        <description>A poor family schemes to become employed by a wealthy family by posing as unrelated, highly qualified individuals.</description>
+        <featured>true</featured>
+    </movie>
+
+    <movie id="5">
+        <title>The Holdovers</title>
+        <year>2023</year>
+        <genre>Comedy</genre>
+        <director>Alexander Payne</director>
+        <rating>7.9</rating>
+        <price>17.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/VHSzNBTwxV8vh7wylo7O9CLdac.jpg</poster>
+        <description>A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go.</description>
+        <featured>true</featured>
+    </movie>
+
+    <movie id="6">
+        <title>Fight Club</title>
+        <year>1999</year>
+        <genre>Drama</genre>
+        <director>David Fincher</director>
+        <rating>8.8</rating>
+        <price>12.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg</poster>
+        <description>An insomniac office worker and a soap salesman form an underground fight club.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="7">
+        <title>Her</title>
+        <year>2013</year>
+        <genre>Romance</genre>
+        <director>Spike Jonze</director>
+        <rating>8.0</rating>
+        <price>14.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/lEIaL12hSkqqe83kgADkbUqEnvk.jpg</poster>
+        <description>A lonely writer develops an unlikely relationship with an operating system designed to meet his every need.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="8">
+        <title>Manchester by the Sea</title>
+        <year>2016</year>
+        <genre>Drama</genre>
+        <director>Kenneth Lonergan</director>
+        <rating>7.8</rating>
+        <price>15.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/e8daDzP0vFOnGyKmve95Yv0D0io.jpg</poster>
+        <description>A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="9">
+        <title>Your Name.</title>
+        <year>2016</year>
+        <genre>Animation</genre>
+        <director>Makoto Shinkai</director>
+        <rating>8.2</rating>
+        <price>13.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg</poster>
+        <description>Two teenagers share a profound, magical connection upon discovering they are swapping bodies.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="10">
+        <title>Dead Poets Society</title>
+        <year>1989</year>
+        <genre>Drama</genre>
+        <director>Peter Weir</director>
+        <rating>8.1</rating>
+        <price>11.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/hmGAF5NDoYB6S39UONevjHCESOI.jpg</poster>
+        <description>English teacher John Keating inspires his students to look at poetry with a different perspective of authentic knowledge and feelings.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="11">
+        <title>A Man Called Otto</title>
+        <year>2022</year>
+        <genre>Comedy</genre>
+        <director>Marc Forster</director>
+        <rating>7.4</rating>
+        <price>16.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/130H1gap9lFfiTF9iDrqNIkFvC9.jpg</poster>
+        <description>Otto is a grump who's given up on life following the loss of his wife and wants to end it all. When a young family moves in nearby, he meets his match in quick-witted Marisol.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="12">
+        <title>The Matrix</title>
+        <year>1999</year>
+        <genre>Sci-Fi</genre>
+        <director>The Wachowskis</director>
+        <rating>8.7</rating>
+        <price>11.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg</poster>
+        <description>A computer programmer discovers reality as he knows it is actually a simulation.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="13">
+        <title>Interstellar</title>
+        <year>2014</year>
+        <genre>Sci-Fi</genre>
+        <director>Christopher Nolan</director>
+        <rating>8.6</rating>
+        <price>15.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg</poster>
+        <description>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="14">
+        <title>Everything Everywhere All at Once</title>
+        <year>2022</year>
+        <genre>Comedy</genre>
+        <director>Daniels</director>
+        <rating>7.8</rating>
+        <price>17.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg</poster>
+        <description>A woman must connect with alternate versions of herself to prevent a powerful being from destroying the multiverse.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="15">
+        <title>Inception</title>
+        <year>2010</year>
+        <genre>Sci-Fi</genre>
+        <director>Christopher Nolan</director>
+        <rating>8.8</rating>
+        <price>14.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg</poster>
+        <description>A thief enters people's dreams to steal secrets from their subconscious minds.</description>
+        <featured>true</featured>
+    </movie>
+
+    <movie id="16">
+        <title>The Shawshank Redemption</title>
+        <year>1994</year>
+        <genre>Drama</genre>
+        <director>Frank Darabont</director>
+        <rating>9.3</rating>
+        <price>11.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg</poster>
+        <description>A banker convicted of murder finds hope and friendship during his time in Shawshank prison.</description>
+        <featured>true</featured>
+    </movie>
+
+    <movie id="17">
+        <title>Black Panther: Wakanda Forever</title>
+        <year>2022</year>
+        <genre>Action</genre>
+        <director>Ryan Coogler</director>
+        <rating>6.7</rating>
+        <price>16.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg</poster>
+        <description>Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers after King T'Challa's death.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="18">
+        <title>Coraline</title>
+        <year>2009</year>
+        <genre>Animation</genre>
+        <director>Henry Selick</director>
+        <rating>7.7</rating>
+        <price>13.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/4jeFXQYytChdZYE9JYO7Un87IlW.jpg</poster>
+        <description>An adventurous girl finds another world that is a strangely idealized version of her frustrating home, but it has sinister secrets.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="19">
+        <title>The Grand Budapest Hotel</title>
+        <year>2014</year>
+        <genre>Comedy</genre>
+        <director>Wes Anderson</director>
+        <rating>8.1</rating>
+        <price>14.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg</poster>
+        <description>The adventures of a legendary concierge and his protégé at a famous European hotel.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="20">
+        <title>Forrest Gump</title>
+        <year>1994</year>
+        <genre>Drama</genre>
+        <director>Robert Zemeckis</director>
+        <rating>8.8</rating>
+        <price>10.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg</poster>
+        <description>The presidencies of Kennedy and Johnson through the eyes of an Alabama man with an IQ of 75.</description>
+        <featured>false</featured>
+    </movie>
+
+
+    <movie id="21">
+        <title>Get Out</title>
+        <year>2017</year>
+        <genre>Horror</genre>
+        <director>Jordan Peele</director>
+        <rating>7.7</rating>
+        <price>15.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg</poster>
+        <description>A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness becomes a nightmare.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="22">
+        <title>Spirited Away</title>
+        <year>2001</year>
+        <genre>Animation</genre>
+        <director>Hayao Miyazaki</director>
+        <rating>9.2</rating>
+        <price>14.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg</poster>
+        <description>A young girl becomes trapped in a strange new world of spirits and must find a way to free herself and her parents.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="23">
+        <title>Isle of Dogs</title>
+        <year>2018</year>
+        <genre>Animation</genre>
+        <director>Wes Anderson</director>
+        <rating>7.8</rating>
+        <price>14.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/c0nUX6Q1ZB0P2t1Jo6EeFSVnOGQ.jpg</poster>
+        <description>Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog.</description>
+        <featured>false</featured>
+    </movie>
+
+    <movie id="24">
+        <title>Little Women</title>
+        <year>2019</year>
+        <genre>Drama</genre>
+        <director>Greta Gerwig</director>
+        <rating>7.8</rating>
+        <price>15.99</price>
+        <poster>https://image.tmdb.org/t/p/w500/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg</poster>
+        <description>Four sisters come of age in America in the aftermath of the Civil War.</description>
+        <featured>false</featured>
+    </movie>
+
+</movies>

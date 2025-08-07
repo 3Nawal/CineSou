@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineSou - Premium Movie Collection</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>🎬 CineSou</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-btn">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-poster">
+                <img src="fantasticmrfox.JPG" alt="Featured Movie" class="hero-image">
+            </div>
+            <div class="hero-text">
+                <h2>Experience Cinema Like Never Before</h2>
+                <p>Discover our curated collection of premium films. From timeless classics to modern masterpieces.</p>
+                <div class="hero-features">
+                    <div class="feature">✨ Curated movie collection</div>
+                    <div class="feature">🎬 Premium quality films</div>
+                    <div class="feature">⚡ Instant digital access</div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn-primary">🛒 Browse Catalog</button>
+                    <button class="btn-secondary">▶️ Watch Trailer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Movies Slider -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="section-header">
+                <h3>Featured Movies</h3>
+                <div class="slider-controls">
+                    <button class="slider-btn prev" id="prev-btn">←</button>
+                    <button class="slider-btn next" id="next-btn">→</button>
+                </div>
+            </div>
+            <div class="movies-slider" id="movies-slider">
+                <!-- Movies will be loaded dynamically from XML -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats & Features -->
+    <section class="stats-section">
+        <div class="container">
+            <h3>Why Choose CineSou?</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🎭</div>
+                    <h4>Premium Collection</h4>
+                    <p>Handpicked films from renowned directors and studios</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📱</div>
+                    <h4>Instant Access</h4>
+                    <p>Stream immediately after purchase on any device</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⭐</div>
+                    <h4>HD Quality</h4>
+                    <p>Crystal clear picture and immersive sound quality</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💳</div>
+                    <h4>Secure Payment</h4>
+                    <p>Safe and encrypted payment processing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🎬 CineSou</h3>
+                    <p>Your premium destination for cinematic excellence</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="catalog.html">Catalog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Help Center</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CineSou. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+
+</html>

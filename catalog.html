@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Catalog - CineSou</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .visually-hidden {
+            position: absolute;
+            left: -10000px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>🎬 CineSou</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html" class="active">Catalog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-btn">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Movie Catalog</h1>
+            <p>Discover our complete collection of premium films</p>
+        </div>
+    </section>
+
+    <!-- Filters & Search -->
+    <section class="filters-section">
+        <h2 class="visually-hidden">Filter and Search Movies</h2>
+        <div class="container">
+            <div class="filters-bar">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="🔍 Search movies..." class="search-input">
+                </div>
+                <div class="filter-controls">
+                    <select id="genre-filter" class="filter-select">
+                        <option value="">All Genres</option>
+                        <option value="action">Action</option>
+                        <option value="drama">Drama</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="thriller">Thriller</option>
+                        <option value="sci-fi">Sci-Fi</option>
+                        <option value="horror">Horror</option>
+                    </select>
+                    <select id="price-filter" class="filter-select">
+                        <option value="">All Prices</option>
+                        <option value="0-10">$0 - $10</option>
+                        <option value="10-15">$10 - $15</option>
+                        <option value="15-20">$15 - $20</option>
+                        <option value="20+">$20+</option>
+                    </select>
+                    <select id="year-filter" class="filter-select">
+                        <option value="">All Years</option>
+                        <option value="2020s">2020s</option>
+                        <option value="2010s">2010s</option>
+                        <option value="2000s">2000s</option>
+                        <option value="1990s">1990s</option>
+                        <option value="classic">Classic</option>
+                    </select>
+                </div>
+            </div>
+            <div class="catalog-info">
+                <span id="movie-count">Loading movies...</span>
+                <div class="sort-controls">
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select" class="sort-select">
+                        <option value="newest">Newest</option>
+                        <option value="oldest">Oldest</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="title">Title A-Z</option>
+                        <option value="rating">Rating</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movie Grid -->
+    <section class="catalog-section">
+        <h2 class="visually-hidden">Movie Listings</h2>
+        <div class="container">
+            <div class="movies-grid" id="movies-grid">
+                <!-- Movies will be loaded dynamically from XML -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <section class="pagination-section">
+        <h2 class="visually-hidden">Page Navigation</h2>
+        <div class="container">
+            <div class="pagination" id="pagination">
+                <!-- Pagination will be generated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Aside Section -->
+    <aside aria-label="Movie Trivia" class="trivia-aside">
+        <div class="container">
+            <h2>🎥 Did You Know?</h2>
+            <ul>
+                <li>"Inception" used over 500 visual effects shots.</li>
+                <li>Tom Hanks took a profit cut instead of salary for "Forrest Gump".</li>
+                <li>"The Godfather" horse head scene used a real one.</li>
+            </ul>
+        </div>
+    </aside>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🎬 CineSou</h3>
+                    <p>Your premium destination for cinematic excellence</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="catalog.html">Catalog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Help Center</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CineSou. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+
+</html>
